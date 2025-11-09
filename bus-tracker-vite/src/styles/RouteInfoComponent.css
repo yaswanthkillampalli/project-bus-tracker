@@ -1,0 +1,16 @@
+.route-info-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  background-color: black;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.time-component-icon {
+  font-size: 35px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
