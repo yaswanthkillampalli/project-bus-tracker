@@ -1,39 +1,50 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+# Dependencies
+/node_modules
+/jspm_packages/
+.npm
 
-# dependencies
-node_modules/
+# Optional npm cache files
+.npmrc
+.gitignore
 
-# Expo
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.log
+log/
 
-# Native
-.kotlin/
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Metro
-.metro-health-check*
+# Directory for placing built projects (can be configured)
+/dist
+/build
+/out
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# Environment files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.env.*
 
-# macOS
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
+# TypeScript files
 *.tsbuildinfo
+/cache
 
-app-example
+# Jest coverage
+/coverage
+
+# Optional editor or OS files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
